@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  npm:
+    build: ./
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./:/app # 바인드 마운트
+
