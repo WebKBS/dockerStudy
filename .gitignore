@@ -30,3 +30,6 @@ docker-compose.yml
 
 # Docker 컨테이너 로그
 logs/
+
+.pem
+*.pem
